@@ -1,0 +1,32 @@
+
+main {
+  display: grid;
+  grid-gap: 15px;
+}
+main p.welcome {
+  grid-column: 1 / 4;
+}
+main img {
+  width: 100%;
+  grid-column: 1 / 2;
+}
+main div#about {
+  grid-column: 2 / 4;
+}
+
+ul.grid-container {
+  display: grid;
+  grid-columns: auto auto auto;
+  background-color: #FFA07A;
+  padding:8px;
+}
+li.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);background-color: E9967A;
+        color: FFFAF0;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 32px;
+  text-align: center;
+}
+h1 {font-size: 3.5rem; font-style: bold;}
+h1 {font-family: halvetica;}
