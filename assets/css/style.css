@@ -1,6 +1,9 @@
 body {
   background-color:#FFEBCD
 }
+<ul>
+  <li><a href="assets/css/style.css/index.html">Resume</a></li>
+  </ul>
 section#about {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -13,7 +16,6 @@ main img {
   width: 100%;
 
 }
-
 
 ul.grid-container {
   display: grid;
