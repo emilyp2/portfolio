@@ -1,18 +1,19 @@
-
-main {
+body {
+  background-color:#FFEBCD
+}
+section#about {
   display: grid;
+  grid-template-columns: 2fr 1fr;
   grid-gap: 15px;
 }
 main p.welcome {
-  grid-column: 1 / 4;
+
 }
 main img {
   width: 100%;
-  grid-column: 1 / 2;
+
 }
-main div#about {
-  grid-column: 2 / 4;
-}
+
 
 ul.grid-container {
   display: grid;
